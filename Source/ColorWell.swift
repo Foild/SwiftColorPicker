@@ -39,13 +39,13 @@ import UIKit
     }
     
     
-    override init(frame: CGRect) {
+    override public init(frame: CGRect) {
         super.init(frame: frame)
         commonInit()
     }
     
     public required init?(coder aDecoder: NSCoder) {
-            super.init(coder: aDecoder)
+        super.init(coder: aDecoder)
         commonInit()
     }
 
